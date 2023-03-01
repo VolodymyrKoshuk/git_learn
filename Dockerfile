@@ -1,2 +1,2 @@
-FROM alpine:latest
-RUN apk add -U git
+FROM ubuntu:latest
+RUN apt install git
