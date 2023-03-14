@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello World') {
             steps {
-                echo 'Build successful'
+                sh 'cat /home/asdasfasf.txt'
             }
         }
     }
