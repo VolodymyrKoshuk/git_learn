@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello World') {
             steps {
-                sh 'cat /home/asdasfasf.txt'
+                $RESULT
             }
         }
     }
